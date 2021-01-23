@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hemen üye ol</title>
+</head>
+<body>
+    <h1>lütfen formu doldurunuz.</h1>
+    <hr>
+
+    <form>
+        <h4>hesap bilgileri</h4>
+        <p>
+            kullanıcı adı : <input type="text" name="username" placeholder="kullanıcı adınızı giriniz" required>
+        </p>
+        
+        <p>
+           E-posta : <input type="email" name="email" placeholder="Eposta giriniz" required>
+        </p>
+        <p>
+            parola : <input type="password" name="parola" placeholder="parola giriniz">
+        </p>
+        <h4>kişisel bilgileriniz</h4>
+        <p>
+            ad : <input type="text" name="ad">
+            soyad : <input type="text" name="soyad">
+        </p>
+       
+        <p>
+            şehir : 
+            <selected name="sehir">
+                <option selected>seçiniz</option>
+                <option >izmir</option>
+                <option >istanbul</option>
+                <option >ankara</option>
+                <option >antalya</option>
+            </selected>
+        </p>
+        <p>
+           cinsiyet :
+           <input type="radio" name="cinsiyet"> Erkek
+           <input type="radio" name="cinsiyet"> Kadın
+        </p>
+        <p>
+            hobileriniz :
+            <input type="checkbox" name="hobiler"> sinema
+            <input type="checkbox" name="hobiler"> gezi
+            <input type="checkbox" name="hobiler"> spor
+            <input type="checkbox" name="hobiler"> kitap
+            <input type="checkbox" name="hobiler"> müzik
+         </p>
+        <input type="submit" value="kaydet">
+    
+    
+    
+    </form>
+</body>
+</html>

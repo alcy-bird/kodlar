@@ -1,0 +1,5 @@
+div p => div içindeki tim p etiketleri
+div,p => tim div ve tüm p etiketleri
+div > p => üst etiketi div olan p
+p ~ div => p ile aynı seviyedeki tim div etiketleri
+p + div => p etiketinden sonra gelen div

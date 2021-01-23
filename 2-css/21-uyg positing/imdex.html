@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 120px;
+            height: 120px;
+        }
+        .mbox{
+            width: 30px;
+            height: 30px;
+            background: chocolate;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        #first{
+            background:crimson;
+            width: 100%;
+            position: sticky;
+            top: 50px;
+        }
+        #second{
+            background: cyan;
+            position: relative;
+
+        }
+        #third{
+            background: darkgreen;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sunt culpa est saepe quasi accusamus temporibus laborum deleniti, reprehenderit dicta, quo nesciunt nobis error blanditiis voluptates nostrum iusto. Dolorum, numquam. <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab sit, error explicabo alias hic dolor temporibus, vero, quo recusandae dicta id quibusdam sed qui. Laborum fuga vero quibusdam totam error?</p>
+    </p>  
+    <div class="box" id="first">box 1</div>
+    <div class="box" id="second">
+        <div class="mbox"></div>
+    </div>
+    <div class="box" id="third">box 3</div>
+    <div style="height: 2000px;"></div>
+
+</body>
+</html>
